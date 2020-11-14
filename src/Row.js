@@ -17,7 +17,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
     fetchData();
   }, [fetchUrl]);
-
+  console.log('axios', axios);
   const opts = {
     height: '390',
     width: '100%',
